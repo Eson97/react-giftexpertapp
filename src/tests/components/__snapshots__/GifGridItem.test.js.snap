@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGridItem />> should show component correctly 1`] = `
+<div
+  className="card animate__animated animate__fadeInLeft"
+>
+  <img
+    alt="Prueba titulo"
+    src="https://localhost/algo.jpg"
+  />
+  <p>
+    Prueba titulo
+  </p>
+  <iframe
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+    allowfullscreen="true"
+    frameborder="0"
+    height="28"
+    scrolling="no"
+    src="https://www.facebook.com/plugins/share_button.php?href=https://localhost/algo.jpg&layout=button&size=large&width=103&height=28&appId"
+    style={
+      Object {
+        "border": "none",
+        "margin": "10px",
+        "overflow": "hidden",
+      }
+    }
+    title="share-button"
+    width="103"
+  />
+</div>
+`;

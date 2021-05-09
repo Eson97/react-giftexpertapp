@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PropTypes from 'prop-types'
 
 
 export const GifGridItem = ({title,url}) => {
@@ -11,4 +11,9 @@ export const GifGridItem = ({title,url}) => {
             <iframe title="share-button" src={`https://www.facebook.com/plugins/share_button.php?href=${url}&layout=button&size=large&width=103&height=28&appId`} width="103" height="28" style={{border:"none",overflow:"hidden",margin:"10px"}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
     )
+}
+
+GifGridItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    url:PropTypes.string.isRequired
 }
